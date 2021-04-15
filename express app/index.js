@@ -19,4 +19,9 @@ app.get('/',function(req,res){
     res.send("hello this is express server");
 })
 
+//  '/about' router
+app.get('/about',function(req,res){
+    res.send("Welcome this is about page");
+})
+
 
